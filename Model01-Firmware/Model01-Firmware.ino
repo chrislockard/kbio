@@ -464,7 +464,7 @@ KALEIDOSCOPE_INIT_PLUGINS(
  * Kaleidoscope and any plugins.
  */
 void setup() {
-  // First, call Kaleidoscope's internal setup function
+  // First, call Kaleidoscope's internal setup functiona
   Kaleidoscope.setup();
 
   // While we hope to improve this in the future, the NumPad plugin
@@ -490,7 +490,7 @@ void setup() {
   LEDOff.activate();
 
   // Set faster mouse key speed
-  MouseKeys.speed = 16;
+  MouseKeys.speed = 10;
 }
 
 /** loop is the second of the standard Arduino sketch functions.
